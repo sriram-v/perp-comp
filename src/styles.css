@@ -1,0 +1,75 @@
+.page {
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 24px;
+}
+
+.layout {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 2fr 1fr;
+}
+
+.sidebar {
+  display: grid;
+  gap: 12px;
+}
+
+.card-list {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  list-style: none;
+  padding: 0;
+}
+
+.card,
+.box {
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.row {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+
+.cart-row {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.error {
+  color: #bd1f1f;
+}
+
+.ok {
+  color: #0d6832;
+}
+
+.badge {
+  background: #f0f6ff;
+  border: 1px solid #9fb8ff;
+  border-radius: 999px;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0;
+  padding: 6px 10px;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  color: #2151d2;
+  padding: 0;
+  text-decoration: underline;
+}
